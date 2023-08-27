@@ -1,0 +1,53 @@
+
+
+
+
+
+				
+
+
+				Entity Framework : Data access mechanism based on open source design pattern ORM
+				Object Relational Mapping
+					Every object from database is mapped to front end
+
+
+				Database frontend
+				Database DbContext
+				Tables   Classes
+				Columns  Properties
+				Constraints DataAnnotations
+
+
+				
+
+
+				EF is not a part of new appliction in VS
+				Thus we need to add 4 nugget packages for the same
+
+				Microsoft.EntityFrameworkCore.Tools
+				Microsoft.EntityFrameworkCore.Design
+				Microsoft.EntityFrameworkCore
+				Microsoft.EntityFrameworkCore.SqlServer
+
+
+			we now need to MAP application with Database - EF will do it for us by createing POCO classes
+				Plain C# Objects - POCO 
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

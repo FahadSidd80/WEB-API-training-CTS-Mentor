@@ -1,0 +1,21 @@
+ Scaffold-DbContext "server=(localdb)\MSSQLLocalDB;database=empEF;integrated 
+
+DI:-
+
+As a developer, we create lots of objects in application but we never.
+1. write code to destroy them
+2. clear memory
+
+3. Never write Destructor
+4. Never implement Idisposable
+
+why ?
+
+Because we are been told -- GC -- Garbage collector will do it for us
+
+but when > - at a random time.
+
+--- but we cannot rely on that.
+
+
+

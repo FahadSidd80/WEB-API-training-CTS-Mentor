@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rjfY4t5BbvEoTeOlzfw27l3IKBoghL1ruw0YwyWa2tk=",
+  "Source": "webapi_friends_CRUD",
+  "BasePath": "_content/webapi_friends_CRUD",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

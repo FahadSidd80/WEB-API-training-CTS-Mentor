@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\fetch_consume_api.props" />
+</Project>

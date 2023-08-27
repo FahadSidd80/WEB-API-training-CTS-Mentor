@@ -1,0 +1,24 @@
+Try:
+
+1. Create a new database employeeManagement 
+2. Add below tables
+	deptInfo - add 5 records minimim
+		deptNo (PK)
+		deptName
+		deptLocation
+	empInfo - add 10 records minimum
+		empNo (PK) 
+		empName
+		empDesignation
+		empSalary
+		empIsPermenant
+		empDept (FK)
+
+
+3. Create a new project - employeeManagementAPI
+
+4. use EF core - and create controllers out of the tables
+---------------------------------------------------------------------------------
+Monday : 
+Consume the api in ASP.net MVC application 
+	

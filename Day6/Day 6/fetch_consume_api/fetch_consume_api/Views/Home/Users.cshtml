@@ -1,0 +1,39 @@
+﻿
+
+
+
+<h1 style="text-align:center"> User list </h1>
+
+<script>
+    function getUsers()
+    {
+        var url = "https://jsonplaceholder.typicode.com/users";
+
+        fetch(url).then(data => data.json())
+                  .then( result => {
+                      for(var i=0;i<result.length;i++)
+                      {
+                    $("#parentDiv").append("<div style='background: lime'>" +
+                        "<h1>" + result[i].username + "</h1>" + 
+                        "<h3>" + result[i].name + "</h3>" +
+                        "<h3>" + result[i].email + "</h3>" +
+                        "<h3>" + result[i].address.city + "</h3>" +
+                        "<h3>" + result[i].address.geo.lat + "</h3>" +
+                        "<h3>" + result[i].address.geo.lng + "</h3>" +
+                        "<h3>" + result[i].company.name + "</h3>" +
+                        "<hr/>"                        
+                    + "</div>")
+                      }
+                  })
+                  .catch(error =>{
+                      console.log(error);
+                  })            
+     }
+</script>
+
+
+<button class="btn btn-danger" onclick="getUsers()"> Show Users </button>
+@*
+<table class="table table-bordered"></table>*@
+
+<div id="parentDiv"></div>

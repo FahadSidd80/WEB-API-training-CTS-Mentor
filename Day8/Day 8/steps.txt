@@ -1,0 +1,43 @@
+1. Make API calls / Consume API in MVC Application
+	a. Client Side call - fetch api
+	b. Server side call - HttpClient
+
+	Today - we will want to make calls to our own API
+
+		1. We will have API with EF Core and SQL Server
+		2. We will need to configure CORS 
+------------------------------------------------------------------------------
+1. Create a database - add tables with data
+2. Create a new Webapi application
+3. Add 4 Nuget Packages for EF
+4. Run Scaffold-DBContext and download POCO classes
+5. Create a controller for every table you have
+6. configure DI in program.cs with 1 of the method for every model class/context
+7. run and test the application
+
+8. keep the server running, create a new ASP.net MVC application, make a call to employee and display the data on view
+		you can use fetch / HttpClient anyways will works
+
+		but you will get an error of CORS, cross origin resource shareing,i.e 
+		api - http://localhost:7768/eList
+		mvc - http://localhost:8989/employee/displayemployee
+
+			both the sites are running on different portno - domains
+		thus we have to configure CORS
+
+		Make a call and see the error in browser console (F12) - it will be call blocked by CORS
+
+9. add a nuget package - CORS and add the policy / service and middleware in program.cs
+		builder.Services.AddCors(options =>
+		{
+			  options.AddDefaultPolicy(defaultpolicy =>
+    			  {
+			        defaultpolicy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+			  });
+		});
+
+		app.UseCors(); //middleware line - 29
+
+
+		
+

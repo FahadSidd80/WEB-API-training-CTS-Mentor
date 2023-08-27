@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\di_cors_api_demo.props" />
+</Project>

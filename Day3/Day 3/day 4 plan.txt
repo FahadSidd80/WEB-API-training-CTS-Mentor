@@ -1,0 +1,10 @@
+
+
+
+
+
+	Try :   
+	Try the project, add more methods if you want to, revisit your programming notes
+
+	Day 4: 
+	Project Day - Task day - WebAPI with in memory collection of object (wont be same as your saw today)

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\httpclient_apicalls_getdata.props" />
+</Project>

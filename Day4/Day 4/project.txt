@@ -1,0 +1,35 @@
+
+
+
+Project Details : Day 4
+Project Name : shoppingAPI
+Time to submit : Tomorrow Before Start of training
+Submission : Email - github link / one drive link / zip the project - send on teams   - nikhil.shah@cognizant.com
+Description : create a new shoppingAPI with the below details
+
+	we need to give list of products to visitors
+		1. product Structure : pId, pName, pCategory, pPrice, pDescription, pIsInStock
+			return minimum 10 products to users
+			http://localhost:9090/plist
+
+		2. user can put the name of the product and get details
+			http://localhost:9090/plist/name
+
+		3. pass the category and get the products 
+			http://localhost:9090/plist/category
+
+		4. pass the inStock parameter and get the products in list as per parameter
+			http://localhost:9090/plist/true
+
+		5. Add a new product
+			http://localhost:9090/plist/add
+		6. update the product
+			http://localhost:9090/edit
+		7. Delete the product
+			http://localhost:9090/delete
+
+		8. you will have 1 more List - cart - user can add a product to cart
+			htttp://localhost:port/product/add/tocart/pid
+		
+		9. display all the products from cart
+			http://localhost:9090/plist/cart

@@ -1,0 +1,62 @@
+REST API / WebAPI
+1. Develop WebAPI
+	WebAPI with data structures (Collections, List) - CRUD operations
+	WebAPI wtih SQL Server (Entity Framework)
+2. Consume WebAPI services in front end apps (ASP.Net MVC)
+	Client Side  - Fetch API - (JQuery) 
+	Server Side  - HttpClient - (C#) 
+
+
+Open source features 
+	Dependency Injection
+	Repository Pattern 
+
+Swagger for testing API 
+Services and Middleware
+---------------------------------------------------------------------
+
+Name:
+technical introduction: Fresher/experienced (2+ years)
+tech Background: Developer / DBA / Admin / Network / other
+What I Know :
+Expecatations :
+
+----------------------------------------------------------------
+
+Softwares:
+
+Visual Studio 2019 or above - I am useing 2022 
+SQL Server 2014 or above - SSMS or Azure Data Studio 
+Git
+
+all of this are already installed on cloud lab
+
+-----------------------------------------------------------
+output is JSON or XML 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

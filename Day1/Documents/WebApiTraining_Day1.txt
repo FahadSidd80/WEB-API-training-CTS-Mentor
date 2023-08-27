@@ -1,0 +1,17 @@
+Name : Fahad Ali
+technical Introduction : Frehser
+tech Background : Developer- Worked on WEb App Using VB.NET, SQL,ASP.NET.
+What I Know : C# - Basic, ASP.NET, ASP.NET MVC, JQuery, Entity Framework, .NET Core, ASP.NET Web API- Basics(CRUD),MS SQL, HTML Controls.Code First Approach, Database First Approach.
+Expectations : Want's Learning in Real time not theoretical concepts only.
+
+Hi Nikhil, Can you elaborate more on what is significance of  actionresult method and normal method. and HttpGet and Post
+
+
+
+localhost:9098/api/controllername./actionname/{parameter}
+
+---------------------------------------------------------------------------------------
+
+GIT LINK - For DAY1 Session.
+
+https://github.com/nikhilshah85/10072023---WebAPI.git

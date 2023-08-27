@@ -1,0 +1,43 @@
+﻿
+
+
+<h1 style="text-align:center"> Post Data from JSON Placeholder </h1>
+
+
+<script>
+
+    function getUserPostdata()
+    {
+        var url = "https://jsonplaceholder.typicode.com/posts";
+
+        fetch(url).then(response => response.json())
+                  .then( responseData => {
+                    //write code to display data in table
+                    //alert("Success - got the data");
+                    //console.log(responseData);
+
+                    for(var i=0;i<responseData.length;i++)
+                    {
+                        $("table").append("<tr>" + 
+                            "<td>" + responseData[i].id + "</td>" +
+                            "<td>" + responseData[i].userId + "</td>" +
+                            "<td>" + responseData[i].title + "</td>" +
+                        "<td>" + responseData[i].body + "</td>" +
+                        
+                        
+                        + "</tr>")
+                    }
+                  })
+                  .catch( err =>{
+                      alert("Errorrrr !!!!!");
+                      console.log(err);
+                  })
+    }
+
+
+</script>
+
+
+<button class="btn btn-primary" onclick="getUserPostdata()" > Show Post </button>
+
+<table class="table table-bordered"></table>

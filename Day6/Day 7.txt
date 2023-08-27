@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+			Consume WebAPI
+
+			1. Client Side calls - Fetch API for the same - an inbuilt api with all the browsers - returns a promise
+						Javascript based - jQuery supports the same
+						This is fastest, but less safe to use
+					
+			2. Server Side calls - HttpClient - an REST api standard - more secure way to make calls 
+						(C#, VB, C++, Java etc..)
+						This is bit slow, but safest
+
+		---------------------------------------------------------------------------
+			Try :
+				make a call to below URL
+
+			https://fakestoreapi.com/products/2
+
+
+			Tomorrow:
+			make webapi call useing HttpClient

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "di_cors_api_demo", "di_cors_api_demo\di_cors_api_demo.csproj", "{8653464B-2B37-4D55-9411-DDF695BA7E74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8653464B-2B37-4D55-9411-DDF695BA7E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8653464B-2B37-4D55-9411-DDF695BA7E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8653464B-2B37-4D55-9411-DDF695BA7E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8653464B-2B37-4D55-9411-DDF695BA7E74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E0622EA-72EB-442A-819C-F2D6DC65C63B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Fm0YPxp38tKlH7Q+Uf4RV6hq3t3SvTe1qy6ZHqWkRIg=",
+  "Source": "httpclient_apicalls",
+  "BasePath": "_content/httpclient_apicalls",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

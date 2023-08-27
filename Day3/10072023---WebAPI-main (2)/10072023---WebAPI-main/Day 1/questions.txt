@@ -1,0 +1,52 @@
+Any data - need to be converted into JSON / XML
+
+Runtime find the method which has the same return type 
+
+
+rather than relying on all this data type, lets have a 1 standard way to write the code
+
+Which will return standard output (JSON/XML)
+Also return the HttpStatus Code and HttpStatus Message
+
+and thus when u use IActionResult - it will always have a return type of 
+HttpStatusCode and HttpStatusMessage
+
+if u say www.nikhilshahisaaccountant.com 
+
+	if there is no such website, what do u see on browser ?
+
+
+String
+Int
+object
+list
+collection
+file
+stream 
+
+---------------------------
+HttpGet - HttpPost - HttpDelete - HttpPut
+
+
+HttpGet - get me the page, images, file, video, empinfo, report, data from sql etc.....
+HttpPost - add something to server, upload a file, add a new record to server, etc...
+HttpDelete - delete something from the server
+HttpPut - edit/update something on server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

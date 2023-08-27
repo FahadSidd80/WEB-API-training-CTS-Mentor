@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+	Try : 
+
+	In the same applicaiton , add a new controller : ProductsController
+
+	have a list of products List<string> produtList = new List<string>();
+
+	perform CRUD operations on the same
+
+
+	Tomorrow : Day 3
+
+	API with Collection of Objects - CRUD Operations

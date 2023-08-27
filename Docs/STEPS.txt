@@ -1,0 +1,12 @@
+1. Create API MVC Application
+2. Add new get package manager
+    1. EFCore
+	EF Tools
+	EF Design
+	EF 
+
+
+https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection
+
+
+ Scaffold-DbContext "server=(localdb)\MSSQLLocalDB;database=empEF;integrated security=true" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\EF

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\httpclient_apicalls_getdata.props" />
+</Project>

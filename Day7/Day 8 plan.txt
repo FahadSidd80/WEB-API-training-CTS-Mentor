@@ -1,0 +1,18 @@
+
+
+
+
+Try :
+
+Make a server side call to :
+https://jsonplaceholder.typicode.com/users
+
+Display Name UserName Email City CompanyName CompanyCatchPhase in a table
+
+---------------------------------------------------------------------------------------------------
+
+Tomorrow :
+
+We will have our own webapi, with SQL Server and EF Core
+	We configure DI in this (understand and configure)
+	Configure CORS in the app to make data available to other apps
